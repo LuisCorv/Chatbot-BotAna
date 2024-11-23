@@ -8,8 +8,8 @@ Follow these steps to set up the project and run the chatbot interface:
 ### 1. Clone the repository
 If you haven't already, clone the repository where this code is stored:
 ```bash
-git clone <your-repository-url>
-cd <your-repository-folder>
+git clone https://github.com/LuisCorv/Chatbot-BotAna.git
+cd Chatbot-BotAna-main
 ```
 
 ### 2. Set up a virtual environment
