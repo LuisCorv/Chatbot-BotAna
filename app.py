@@ -24,8 +24,7 @@ def load_model_and_tokenizer():
 tokenizer, model = load_model_and_tokenizer()
 
 def format_the_response(text):
-    information = text.split("### Instrucción:")[1]
-    instruction,bot_response = information.split("### Respuesta:")
+    instruction,bot_response = text.split("### Respuesta:")
     
     return instruction + "\n" + bot_response
 
